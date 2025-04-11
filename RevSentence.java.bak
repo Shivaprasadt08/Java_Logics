@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class RevSentence{
+	satic void revsentence(String str){
+		String[] s1 = str.split(" ");
+		String res = "";
+		for(int i = s1.length-1; i >= 0; i--){
+			res += s1[i] + " ";
+		}
+		System.out.println("Reverse of the Given Sentence is \n" + res);
+	}
+
+
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Sentence \n");
+		String str =  sc.nextLine();
+		revsentence(str);
+
+	}
+}
