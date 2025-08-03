@@ -10,11 +10,11 @@ public class PalindromeString{
     }
     static String isPali(String str){
         String res = "";
-        for(int i = str.length()-1; i >= 0; i--){
+        for(int i = str.length() - 1; i >= 0; i--){
             res += str.charAt(i);
         }
         if(str.equalsIgnoreCase(res)){
-            return "palindrome "+res;
+            return "palindrome "+ res;
         }
         else
          return "not palindrome";

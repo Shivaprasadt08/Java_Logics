@@ -10,6 +10,6 @@ class RevStringInArr{
 	 i++;
 	 j--;
 	}
-	System.out.println(ch+"\n");
+	System.out.println(ch + "\n");
 }
 }

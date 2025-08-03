@@ -8,8 +8,6 @@ class RevSentence{
 		}
 		System.out.println("Reverse of the Given Sentence is \n" + res);
 	}
-
-
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Sentence \n");
